@@ -15,15 +15,15 @@
 // Make sure it works before continuing!
 
 // STEP 3: Paste your API URL here
-const API_URL = "PASTE_API_URL_HERE";
+const API_URL = "https://yesno.wtf/api";
 
 // ========================================
 // STEP 4: Write Your Fetch Code
 // ========================================
 // TODO: Uncomment the code below and replace PASTE_API_URL_HERE with your API_URL variable
 
-/*
-fetch("PASTE_API_URL_HERE")
+
+fetch(API_URL)
     .then(response => response.json())
     .then(data => {
         console.log(data);
