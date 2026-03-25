@@ -72,8 +72,7 @@ button.addEventListener("click", function() {
 // STEP 7: BONUS - Add Image Support (if your API includes images)
 // ========================================
 // TODO: If your API returns images, uncomment and modify:
-
-/*
+const image=document.getElementById("output-img");
 button.addEventListener("click", function() {
     fetch(API_URL)
         .then(response => response.json())
@@ -84,4 +83,3 @@ button.addEventListener("click", function() {
             `;
         });
 });
-*/
