@@ -79,7 +79,7 @@ button.addEventListener("click", function() {
         .then(data => {
             output.innerHTML = `
                 <img src="${data.image}" width="300">
-                <p>${data.fact}</p>
+                <p>${data.answer}</p>
             `;
         });
 });
