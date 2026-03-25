@@ -28,7 +28,7 @@ fetch(API_URL)
     .then(data => {
         console.log(data);
     });
-*/
+
 
 // After uncommenting, save and refresh your page.
 // Open the browser console (F12) to see your data!
@@ -49,7 +49,6 @@ fetch(API_URL)
     .then(data => {
         output.innerText = data.answer; // TODO: Change 'fact' to match your API's data structure
     });
-*/
 
 // ========================================
 // STEP 6: Add a Button to Fetch New Data
@@ -68,7 +67,6 @@ button.addEventListener("click", function() {
             output.innerText = data.answer; // TODO: Change 'fact' to match your API's data structure
         });
 });
-*/
 
 // ========================================
 // STEP 7: BONUS - Add Image Support (if your API includes images)
